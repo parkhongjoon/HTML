@@ -1,0 +1,169 @@
+@import url('slick.css');
+@import url('slick-theme.css');
+@import url('animate.min.css');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 10px;
+}
+.navbox{
+    height: 100%;
+    display: flex;
+}
+.nav{
+    height: 100%;
+}
+.menu{
+    padding: 20px 80px;
+    text-align: center;
+    font-size: 2em;
+}
+.logo2{
+    width: 10%;
+    height: 100%;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top: 10px;
+}
+.coment{
+    height: 150px;
+    font-weight: 800;
+    font-size: 70px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.content{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: aliceblue;
+}
+.col1{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20%;
+
+}
+.col2{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20%;
+
+}
+.col3{
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.btn1{
+    width: 250px;
+    height: 80px;
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.imgtext{
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding-top: 100px;
+}
+.mid{
+    background-color: aliceblue;
+}
+.slide{
+    height: 600px;
+    padding-top: 50px;
+    margin: 10;
+    z-index: 5;
+}
+.slide2{
+    height: 300px;
+    padding-top: 50px;
+    margin: 10;
+    z-index: 5;
+}
+.line{
+    height: 1px;
+    border: 2px dashed gray;
+}
+.lineup{
+    height: 1000px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-style: oblique;
+    background: linear-gradient(to right top, #f8c5e3, #6dc595 , #75b9f1);
+}
+.sing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sing img{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 20px;
+}
+.box1{
+    height: 33.3333%;
+    width: 33.3333%;
+    justify-content: space-between;
+}
+.box2{
+    height: 33.3333%;
+    width: 33.3333%;
+    padding-top: 200px;
+}
+.box3{
+    height: 33.3333%;
+    width: 33.3333%;
+    justify-content: space-between;
+}
+
+
+.map{
+    padding-left: 650px;
+}
+.map2{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+footer{
+    height: 150px;
+    background-color: #0e050546;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px;
+}
+.icon{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px 30px;
+    justify-content: space-between;
+
+}
